@@ -1,0 +1,16 @@
+{
+  "name": "gulp-merge-streams",
+  "version": "1.0.0",
+  "description": "Gulp merge streams sample project",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "event-stream": "^4.0.1",
+    "gulp": "^3.9.1",
+    "merge-stream": "^2.0.0"
+  }
+}
