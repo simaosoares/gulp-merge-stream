@@ -10,7 +10,22 @@
   "license": "ISC",
   "devDependencies": {
     "event-stream": "^4.0.1",
-    "gulp": "^3.9.1",
+    "glob-parent": "^5.1.2",
+    "gulp": "^4.0.2",
     "merge-stream": "^2.0.0"
+  },
+  "overrides": {
+    "gulp": {
+      "vinyl-fs": {
+        "glob-stream": {
+          "glob-parent": "^5.1.2"
+        }
+      },
+      "glob-watcher": {
+        "chokidar": {
+          "glob-parent": "^5.1.2"
+        }
+      }
+    }
   }
 }
